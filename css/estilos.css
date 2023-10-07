@@ -1,43 +1,44 @@
-body
-{
-    color: rgb(0, 0, 0);
+body {
+    color: #ffffff;
     text-align: center;
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
     font-size: 16px;
+    margin: 0;
+    background-color: black;
 }
 
-#cabecera 
-{
-    background-color: #33A;
-    box-shadow: opx 5px 30px 0px rgba(0,0,0,0.75);
+#cabecera {
+    background-color: #3399cc;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.75);
     color: white;
     font-weight: bold;
-    margin: 0;
-    padding: 0.5em;
+    padding: 1em;
 }
 
-#cabecera #tagline
-{
-    margin: 0 0 0 1em;
+#tagline {
+    margin-left: 1em;
     font-weight: normal;
     font-size: 0.8em;
 }
 
-#container
-{
-    width: 70%;
-    padding: 0;
-    text-align: left;
-    border: 1px solid #9dd99b
+#container {
+    width: 50%;
     margin: 0 auto;
-}
-
-#container h1
-{
-   font-size: 20px; 
-}
-
-#post
-{
+    border: 0.5px solid #868686;
     padding: 1em;
+    text-align: left;
+}
+
+#container h1 {
+    font-size: 24px;
+}
+
+#post {
+    padding: 1em;
+}
+
+/* Agregamos una transición suave para el hover en el título del post */
+#post h2:hover {
+    color: #3399cc;
+    transition: color 0.3s ease-in-out;
 }
